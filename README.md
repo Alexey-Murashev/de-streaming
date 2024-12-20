@@ -22,6 +22,3 @@ example for minikube:
 kubectl port-forward <flink-jobmanager-pod> 8081:8081
 
 Now one can watch job progress and details in WebUI
-
-Issues:
-it doesn't update aggregated result by intervals, only at the end of stream
